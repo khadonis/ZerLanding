@@ -1,0 +1,19 @@
+.is-open {
+    & .btn-hamburger-line {
+        background-color: $brand_color;
+        &:nth-child(1) {
+            transform: rotate(-35deg);
+            top: 11px;
+        }
+        &:nth-child(2) {
+            transform: scaleX(0);
+        }
+        &:nth-child(3) {
+            transform: rotate(35deg);
+            top: 11px;
+        }
+    }
+    &.nav-mobile{
+        left: 0;
+    }
+}

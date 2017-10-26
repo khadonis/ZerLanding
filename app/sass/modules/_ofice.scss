@@ -1,0 +1,18 @@
+.ofice{
+    background-color: #000000;
+    color: #ffffff;
+    height: auto;
+    padding: 15px 30px;
+    font-family: $font_nav;
+    &-small{
+        font-weight: normal;
+        font-size: 12px;
+        margin: 5px;
+    }
+    &-subtitle{
+        margin-bottom: 0;
+    }
+    a:hover{
+        color: #ffffff;
+    }
+}
